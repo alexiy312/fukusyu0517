@@ -52,5 +52,12 @@ namespace fukusyu0517
         {
 
         }
+
+        private void reset_button_Click(object sender, EventArgs e)
+        {
+            textBox1.Text = "0";
+            textBox2.Text = "0";
+            label1.Location = new Point(240, 160);
+        }
     }
 }
