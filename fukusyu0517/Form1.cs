@@ -20,6 +20,7 @@ namespace fukusyu0517
         private void up_button_Click(object sender, EventArgs e)
         {
             textBox2.Text = "-5";
+            textBox1.Text = "0";
         }
 
         private void timer1_Tick(object sender, EventArgs e)
@@ -31,16 +32,19 @@ namespace fukusyu0517
         private void left_button_Click(object sender, EventArgs e)
         {
             textBox1.Text = "-5";
+            textBox2.Text = "0";
         }
 
         private void down_button_Click(object sender, EventArgs e)
         {
             textBox2.Text = "5";
+            textBox1.Text = "0";
         }
 
         private void right_button_Click(object sender, EventArgs e)
         {
             textBox1.Text = "5";
+            textBox2.Text = "0";
         }
 
         private void textBox1_TextChanged(object sender, EventArgs e)
